@@ -5,7 +5,7 @@
 - [Logistic Regression](#1-logistic-regression-python)
 - [Support Vector Machine]() (yet to implement)
 - [Decision Trees]() (yet to implement)
-- [Deep Neural Network-DeepLearning](#Deep-Neural-Network)
+- [Deep Neural Network-DeepLearning](#deep-neural-network--deeplearning-python)
 - [Neural Network with matlab/octave](#Neural-Network )
 
 ## 1. Logistic Regression (Python)
@@ -41,7 +41,7 @@ W,b =clf.getWeight()
 </p>
 
 
-## 2. Deep Neural Network - Deeplearning(python)
+## 2. Deep Neural Network - Deeplearning (python)
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
  
