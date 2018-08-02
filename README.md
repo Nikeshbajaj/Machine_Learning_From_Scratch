@@ -65,7 +65,7 @@ W= NeuralNet(X,y,HL,Iterations,alpha,verbose);
 
 W= NeuralNet(X,y,[5,3],500,0.1,1); 
 
-% for 10 hidden layers
+% for 8 hidden layers
 W= NeuralNet(X,y,[15,10,10,10,5,5,5,3],100,0.1,1);
 
 returns weights W of each layer
