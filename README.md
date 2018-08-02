@@ -9,7 +9,7 @@
 - [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
     - Convolutional Network
     - Recurrance Neural Network
-- [Kernel Learning & Regularization](#4-kernel-learning-regularization)
+- [Kernel Learning & Regularization](#4-kernel-learning--regularization)
 
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
