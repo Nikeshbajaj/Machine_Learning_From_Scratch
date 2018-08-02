@@ -5,7 +5,7 @@
 - [Logistic Regression](#1-logistic-regression-python)
 - [Support Vector Machine]() (yet to implement)
 - [Decision Trees]() (yet to implement)
-- [Deep Neural Network-DeepLearning](#deep-neural-network--deeplearning-python)
+- [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
 - [Neural Network with matlab/octave](#Neural-Network )
 
 ## 1. Logistic Regression (Python)
