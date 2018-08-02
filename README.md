@@ -1,7 +1,12 @@
 # Machine Learning From Scratch (without using any ML libraries)
 ## With good visualizations
 
-Machine Learning models from scratch
+## Table of contents
+- [Logistic Regression](#Logistic-Regression)
+- [Support Vector Machine](#SVM) (yet to implement)
+- [Decision Trees](#DT)(yet to implement)
+- [Deep Neural Network -DeepLearning](#Deep Neural Network)
+- [Neural Network with matlab/octave](#contributing)
 
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
