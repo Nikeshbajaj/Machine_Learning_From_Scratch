@@ -2,8 +2,9 @@
 
 Machine Learning models from scratch
 
-## Logistic Regression
+## Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/LogisticRegression/img/example5.gif" width="600"/>
   
@@ -12,14 +13,14 @@ Machine Learning models from scratch
 </p>
 
 
-## Deeplearning (python)
+## Deep Neural Network - Deeplearning(python)
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="300"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="300"/>
 </p>
 
-## Simple neural network with any number of layers (Matlab/Octave) 
+## Neural Network (simple structure) with any number of layers (Matlab/Octave) 
 ### Code and examples [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/NeuralNet)
 
 Network can be created and trained as for example
