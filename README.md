@@ -3,10 +3,10 @@
 
 ## Table of contents
 - [Logistic Regression](#Logistic-Regression)
-- [Support Vector Machine](#SVM) (yet to implement)
-- [Decision Trees](#DT)(yet to implement)
-- [Deep Neural Network -DeepLearning](#Deep Neural Network)
-- [Neural Network with matlab/octave](#contributing)
+- [Support Vector Machine]() (yet to implement)
+- [Decision Trees]() (yet to implement)
+- [Deep Neural Network-DeepLearning](#Deep-Neural-Network)
+- [Neural Network with matlab/octave](#Neural-Network )
 
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
