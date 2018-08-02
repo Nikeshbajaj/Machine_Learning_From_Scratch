@@ -2,7 +2,7 @@
 ## With good visualizations
 
 ## Table of contents
-- [1. Logistic Regression](#1.-Logistic-Regression)
+- [Logistic Regression](#1-logistic-regression-python)
 - [Support Vector Machine]() (yet to implement)
 - [Decision Trees]() (yet to implement)
 - [Deep Neural Network-DeepLearning](#Deep-Neural-Network)
