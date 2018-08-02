@@ -9,7 +9,7 @@
 - [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
     - Convolutional Network
     - Recurrance Neural Network
-- [Kernel Learning & Regularization](#4-kernel-learning--regularization)
+- [Kernel Learning & Regularization](#4-kernel-learning--regularization-python)
 
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
@@ -78,7 +78,7 @@ returns weights W of each layer
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/NeuralNet/NonLinear3.bmp" width="300"/>
 </p>
 
-## 4. Kernel Learning & regularization
+## 4. Kernel Learning & regularization (python)
 ### Kernel Learning (Linear, Polynomial, Gaussian)
 * Linear ![equation1](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20X%5ETY)
 * Polynomail ![equation2](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20%28X%5ET%20Y%20+%201%29%5Ep)
