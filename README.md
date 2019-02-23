@@ -3,6 +3,7 @@
 
 ## Table of contents
 - [Logistic Regression](#1-logistic-regression-python)
+- [Naive Bayes](#5-naive-bayes)
 - Support Vector Machine (yet to implement)
 - Decision Trees (yet to implement)
 - [Neural Network (matlab/octave)](#3-neural-network-simple-structure-with-any-number-of-layers-matlaboctave)
@@ -92,6 +93,7 @@ returns weights W of each layer
 
 ## 5 Naive Bayes
 ### Probabilistic model
+Classifier based on Bayes rule
 ### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
 
 <p align="center">
