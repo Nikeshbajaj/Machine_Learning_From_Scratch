@@ -1,6 +1,8 @@
 # Machine Learning From Scratch (without using any ML libraries)
 ## With good visualizations
 
+## [View Github page](https://nikeshbajaj.github.io/Machine_Learning_From_Scratch/)
+
 ## Table of contents
 - [Logistic Regression](#1-logistic-regression-python)
 - [Naive Bayes](#5-naive-bayes)
