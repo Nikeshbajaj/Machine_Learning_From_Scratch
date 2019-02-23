@@ -95,7 +95,7 @@ returns weights W of each layer
 ### Probabilistic model
 Classifier based on Bayes rule:
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/Bayes_rule.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/Bayes_rule.png" width="400"/>
 </p>
 
 ### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
@@ -105,8 +105,12 @@ Notebook include example of Iris data, Breast Cancer and Digit classification (M
 ```
 import numpy as np
 import matplotlib.pyplot as plt
+
+# For dataset
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
+
+# Library provided
 from probabilistic import NaiveBayes
 
 data = datasets.load_iris()
@@ -117,9 +121,11 @@ Xt,Xs,yt,ys = train_test_split(X,y,test_size=0.3)
 
 print(Xt.shape,yt.shape,Xs.shape,ys.shape)
 
+# Fitting model (estimating the parameters)
 clf = NaiveBayes()
 clf.fit(Xt,yt)
 
+# Prediction
 ytp = clf.predict(Xt)
 ysp = clf.predict(Xs)
 
@@ -128,6 +134,7 @@ print('Testing  Accuracy : ',np.mean(ysp==ys))
 
 print(clf.parameters)
 
+# Visualization
 fig = plt.figure(figsize=(12,10))
 clf.VizPx()
 ```
