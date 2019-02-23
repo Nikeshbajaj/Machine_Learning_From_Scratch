@@ -93,8 +93,13 @@ returns weights W of each layer
 
 ## 5 Naive Bayes
 ### Probabilistic model
-Classifier based on Bayes rule
+Classifier based on Bayes rule:
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/Bayes_rule.png" width="300"/>
+</p>
 ### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
+Notebook include example of Iris data, Breast Cancer and Digit classification (MNIST)
+
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist.png" width="600"/>
