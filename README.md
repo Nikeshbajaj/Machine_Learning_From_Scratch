@@ -90,5 +90,12 @@ returns weights W of each layer
 
 
 
+## 5 Naive Bayes
+### Probabilistic model
+### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist.png" width="600"/>
+</p>
 
 
