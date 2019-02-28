@@ -5,6 +5,9 @@
 
 # See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-%20Classification%20and%20Regression.ipynb) for more details
 
+
+### import
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,15 +15,33 @@ import matplotlib.pyplot as plt
 # Download trees.py and keep in current directory or give a path (if you know how to)
 from trees import ClassificationTree, RegressionTree
 
-#get your data in Xt, yt, Xs, ys for training and testing 
+# For examples
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+```
 
+### Iris Data
+```
+data = datasets.load_iris()
+X = data.data
+y = data.target
+
+feature_names = data.feature_names #Optional
+Xt,Xs, yt, ys = train_test_split(X,y,test_size=0.3)
+```
+ 
+ ### Initiate the classifier and train it
+```
 clf = ClassificationTree()
 
 # verbose 0 for no progress, 1 for short and 2 for detailed.
 # feature_names is you know, else leave it or set it to None
 
 clf.fit(Xt,yt,verbose=2,feature_names=feature_names)  
+```
 
+### Plot the decision tree
+```
 # Plot Tree that has been learned
 plt.figure(figsize=(15,8))
 clf.plotTree(show=True)
