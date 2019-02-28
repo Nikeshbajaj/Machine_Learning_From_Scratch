@@ -52,6 +52,7 @@ W,b =clf.getWeight()
 </p>
 
 -----
+
 ## 2. Deep Neural Network - Deeplearning (python)
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
@@ -60,7 +61,9 @@ W,b =clf.getWeight()
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="500"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="300"/>
 </p>
+
 -----
+
 ## 3. Neural Network (simple structure) with any number of layers (Matlab/Octave) 
 ### Code and examples [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/NeuralNet)
 
@@ -85,7 +88,9 @@ returns weights W of each layer
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/NeuralNet/NonLinear1.bmp" width="300"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/NeuralNet/NonLinear3.bmp" width="300"/>
 </p>
+
 -----
+
 ## 4. Kernel Learning & regularization (python)
 ### Kernel Learning (Linear, Polynomial, Gaussian)
 * Linear ![equation1](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20X%5ETY)
@@ -96,8 +101,8 @@ returns weights W of each layer
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/GUI_Win_Lin.jpg" width="500"/>
 </p>
 
-
 -----
+
 ## 5 Naive Bayes
 ### Probabilistic model
 Classifier based on Bayes rule:
@@ -151,6 +156,7 @@ clf.VizPx()
 </p>
 
 -----
+
 ## 6 Decision Trees
 ## Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
