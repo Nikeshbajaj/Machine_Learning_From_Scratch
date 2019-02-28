@@ -10,12 +10,14 @@
     - [Classification Tree]
     - [Regression Tree]
 - Support Vector Machine (yet to implement)
-- Decision Trees (yet to implement)
 - [Neural Network (matlab/octave)](#3-neural-network-simple-structure-with-any-number-of-layers-matlaboctave)
 - [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
     - Convolutional Network
     - Recurrance Neural Network
 - [Kernel Learning & Regularization](#4-kernel-learning--regularization-python)
+
+
+-----
 
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
@@ -49,7 +51,7 @@ W,b =clf.getWeight()
   <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/LogisticRegression/img/example2.gif" width="300"/>
 </p>
 
-
+-----
 ## 2. Deep Neural Network - Deeplearning (python)
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
@@ -58,7 +60,7 @@ W,b =clf.getWeight()
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="500"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="300"/>
 </p>
-
+-----
 ## 3. Neural Network (simple structure) with any number of layers (Matlab/Octave) 
 ### Code and examples [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/NeuralNet)
 
@@ -83,7 +85,7 @@ returns weights W of each layer
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/NeuralNet/NonLinear1.bmp" width="300"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/NeuralNet/NonLinear3.bmp" width="300"/>
 </p>
-
+-----
 ## 4. Kernel Learning & regularization (python)
 ### Kernel Learning (Linear, Polynomial, Gaussian)
 * Linear ![equation1](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20X%5ETY)
@@ -95,7 +97,7 @@ returns weights W of each layer
 </p>
 
 
-
+-----
 ## 5 Naive Bayes
 ### Probabilistic model
 Classifier based on Bayes rule:
@@ -148,14 +150,15 @@ clf.VizPx()
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist.png" width="600"/>
 </p>
 
-
-
+-----
 ## 6 Decision Trees
 ## Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
-# See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-%20Classification%20and%20Regression.ipynb) for more details
+### See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-%20Classification%20and%20Regression.ipynb) for more details
 
+
+#### Import
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -163,21 +166,34 @@ import matplotlib.pyplot as plt
 # Download trees.py and keep in current directory or give a path (if you know how to)
 from trees import ClassificationTree, RegressionTree
 
-#get your data in Xt, yt, Xs, ys for training and testing 
+# For examples
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+```
+#### Iris Data
+```
+data = datasets.load_iris()
+X = data.data
+y = data.target
 
+feature_names = data.feature_names #Optional
+Xt,Xs, yt, ys = train_test_split(X,y,test_size=0.3)
+```
+#### Initiate the classifier and train it
+```
 clf = ClassificationTree()
 
 # verbose 0 for no progress, 1 for short and 2 for detailed.
 # feature_names is you know, else leave it or set it to None
 
 clf.fit(Xt,yt,verbose=2,feature_names=feature_names)  
-
+```
+#### Plot the decision tree
+```
 # Plot Tree that has been learned
 plt.figure(figsize=(15,8))
 clf.plotTree(show=True)
 ```
-
-
 
 
 ### Visualization of decision tree after fitting a model
