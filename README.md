@@ -7,8 +7,8 @@
 - [Logistic Regression](#1-logistic-regression-python)
 - [Naive Bayes](#5-naive-bayes)
 - [Decision Tree](#6-decision-trees)
-    - [Classification Tree]
-    - [Regression Tree]
+    - [Classification Tree](#visualization-of-decision-tree-after-fitting-a-model)
+    - [Regression Tree](#visualization-of-decision-tree-after-fitting-a-model)
 - Support Vector Machine (yet to implement)
 - [Neural Network (matlab/octave)](#3-neural-network-simple-structure-with-any-number-of-layers-matlaboctave)
 - [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
