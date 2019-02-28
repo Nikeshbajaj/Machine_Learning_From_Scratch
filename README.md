@@ -64,7 +64,7 @@ W,b =clf.getWeight()
 
 -----
 
-## 3. Neural Network (simple structure) with any number of layers (Matlab/Octave) 
+## 3. Neural Network (simple structure-fully connected) with any number of layers (Matlab/Octave) 
 ### Code and examples [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/NeuralNet)
 
 Network can be created and trained as for example
