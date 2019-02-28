@@ -6,7 +6,7 @@
 ## Table of contents
 - [Logistic Regression](#1-logistic-regression-python)
 - [Naive Bayes](#5-naive-bayes)
-- [Decision Tree](#5-naive-bayes)
+- [Decision Tree](#6-decision-trees)
     - [Classification Tree]
     - [Regression Tree]
 - Support Vector Machine (yet to implement)
@@ -161,7 +161,7 @@ clf.VizPx()
 ### Visualizing the progress of tree building while training
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/rees/img/verbose1.gif" width="600"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose1.gif" width="300"/>
   
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_1.gif" width="300"/>
   <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_2.gif" width="300"/>
