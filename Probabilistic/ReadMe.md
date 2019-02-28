@@ -45,11 +45,15 @@ print(clf.parameters)
 fig = plt.figure(figsize=(12,10))
 clf.VizPx()
 ```
+## Iris Data
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist.png" width="600"/>
 </p>
 
+## Breast Cancer Data
+
+(first 16 features)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist1.png" width="600"/>
