@@ -1,4 +1,4 @@
-Naive Bayes
+# Naive Bayes
 ### Probabilistic model
 Classifier based on Bayes rule:
 <p align="center">
