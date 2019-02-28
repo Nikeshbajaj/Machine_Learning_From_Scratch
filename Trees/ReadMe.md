@@ -3,7 +3,7 @@
 ## Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
-# See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-%20Classification%20and%20Regression.ipynb) for more details
+# See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression.ipynb) for more details
 
 
 ### import
