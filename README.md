@@ -6,6 +6,9 @@
 ## Table of contents
 - [Logistic Regression](#1-logistic-regression-python)
 - [Naive Bayes](#5-naive-bayes)
+- [Decision Tree](#5-naive-bayes)
+    - [Classification Tree]
+    - [Regression Tree]
 - Support Vector Machine (yet to implement)
 - Decision Trees (yet to implement)
 - [Neural Network (matlab/octave)](#3-neural-network-simple-structure-with-any-number-of-layers-matlaboctave)
@@ -143,6 +146,25 @@ clf.VizPx()
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/img/FeatureDist.png" width="600"/>
+</p>
+
+
+
+## 6 Decision Trees
+### Classification and Regression Tree
+
+### Visualization of decision tree after fitting a model
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree1_Iris.png" width="600"/>
+</p>
+
+### Visualizing the progress of tree building while training
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/rees/img/verbose1.gif" width="600"/>
+  
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_1.gif" width="300"/>
+  <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_2.gif" width="300"/>
 </p>
 
 
