@@ -62,10 +62,17 @@ clf.plotTree(show=True)
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree4_Cancer.png" width="600"/>
 </p> 
 
-**Boston data: Decesion Tree**
+**Boston data: Decesion Tree** ***Big Tree***
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree5_Boston.png" width="600"/>
 </p> 
+
+**Boston data: Decesion Tree** ***Small Tree***
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree6_Boston.png" width="600"/>
+</p> 
+
+
 
 ### Visualizing the progress of tree building while training
 
