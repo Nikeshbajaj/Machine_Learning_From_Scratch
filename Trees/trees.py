@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+#import time
 
 
 # Super class for Classification and Regression
@@ -32,23 +33,25 @@ class DecisionTree(object):
         
         # The maximum depth to grow the tree to
         self.max_depth = max_depth
+                
+        # if threshold is consider from unique values of middle of two unique values
+        # Not applicable to catogorical feature  
+        self.thresholdFromMean =thresholdFromMean
+        
+        self.trained = False
+        
+        # Variables that comes from SubClass
+        self.verbose = None
+        self.feature_names = None
+        self.randomBranch=None
         
         # Function to calculate impurity (classif.=>info gain, regr=>variance reduct.)
         self._impurity_calculation = None
         
         # Function to determine prediction of y at leaf
         self._leaf_value_calculation = None
-        
-        # if threshold is consider from unique values of middle of two unique values
-        # Not applicable to catogorical feature  
-        self.thresholdFromMean =thresholdFromMean
-        
-        # to display better
-        self.feature_names = None
-        
-        self.trained = False
-
-    def fit(self, X, y,verbose=0,feature_names=None):
+    
+    def fit(self, X, y):
         '''
         Building a tree and saving in an dictionary at self.tree 
         Parameters:
@@ -64,12 +67,17 @@ class DecisionTree(object):
         '''
         self.nfeatures = X.shape[1]
         self.one_dim = len(np.shape(y)) == 1
-        self.verbose = verbose
-        if X.shape[1]<100: self.delay=0
+        #self.verbose = verbose
+        self.branch = None
+        #self.randomBranch = randomBranch
+        if self.verbose ==4: self.fig, self.ax =plt.subplots(1,1)
+        self.cpath = ''
+        self.space='->'
+        self.FastPlot =True
         
         print('Number of features::',self.nfeatures)
         print('Number of samples ::',X.shape[0])
-        self.set_featureNames(feature_names=feature_names)
+        self.set_featureNames(feature_names=self.feature_names)
         print('---------------------------------------')
         print('|Building the tree.....................')
         self.tree = self._build_tree(X, y)
@@ -100,7 +108,8 @@ class DecisionTree(object):
                 # iterate over all values of feature_i
                 pf1 = (feature_i+1)/n_features
                 
-                if self.verbose==2: status1 = '|'+self.space[:-1]+'Feature::'+str(feature_i+1)+'_'+self.feature_names[feature_i]
+                if self.verbose==2: status1 = '|'+self.space[:-1]+'Feature::'+str(feature_i+1)+\
+                    '_'+self.feature_names[feature_i]
                 
                 if self.verbose==1:
                     print('|subtrees::|'+str(int(pf1*100))+'%|'+'-'*int(pf1*20)+'>'+\
@@ -134,8 +143,8 @@ class DecisionTree(object):
                             largest_impurity = impurity
                             
                             if self.verbose: status3 = ' Gain::'+str(np.around(impurity,2))+\
-                            ' thr::'+str(np.around(threshold,2))
-                            
+                            ' thr::'+str(np.around(threshold,2)) + '_Depth = '+str(current_depth)+'   '
+                             
                             node ={'feature_index':feature_i,"threshold": threshold,
                                    'feature_name':self.feature_names[feature_i],
                                    'impurity':impurity,
@@ -150,24 +159,66 @@ class DecisionTree(object):
 
         if largest_impurity > self.min_impurity:
             # Build subtrees for the right and left branches
-            if self.verbose==2: 
-                print('|\n|')
-                print('|'+self.space+'True branch (>>>)..')
-            self.branch = True
-            self.space = '-'+self.space
-            tBranch = self._build_tree(sets["tX"], sets["ty"], current_depth + 1)
+            #self.cpath = self.cpath[:current_depth]
+            if self.branch:
+                #self.cpath = self.cpath +'T'
+                S = list(self.cpath) +['']*(current_depth+1)
+                S[current_depth-1] ='T'
+                self.cpath = ''.join(S)
+                
+            elif self.branch==False:
+                #self.cpath = self.cpath +'F'
+                S = list(self.cpath) +['']*(current_depth+1)
+                S[current_depth-1] ='F'
+                self.cpath = ''.join(S)
+                
             
-            if len(self.space)>1: self.space  = self.space[1:]
-            if self.verbose==2: print('|'+self.space+'False branch (<<<)..')
-            self.branch = False
-            fBranch = self._build_tree(sets["fX"], sets["fy"], current_depth + 1)
+            self.cpath =self.cpath[:current_depth]
             
+            if self.verbose==3: print(self.branch,current_depth,'|',self.cpath)
+            
+            rd = np.random.random(1)[0] if self.randomBranch or self.verbose==2 else 1
+            
+            
+            
+            if rd>0.5:
+            
+                if self.verbose==2: print('|\n|'+self.space+'True branch (>>>)..')
+                    
+                self.branch = True
+                self.space = '-'+self.space
+                tBranch = self._build_tree(sets["tX"], sets["ty"], current_depth + 1)
+
+                if len(self.space)>1: self.space  = self.space[1:]
+                    
+                if self.verbose==2: print('|\n|'+self.space+'False branch (<<<)..')
+
+                self.branch = False
+                fBranch = self._build_tree(sets["fX"], sets["fy"], current_depth + 1)
+
+            else:                   
+                if self.verbose==2: print('|\n|'+self.space+'False branch (<<<)..')
+
+                self.branch = False
+                fBranch = self._build_tree(sets["fX"], sets["fy"], current_depth + 1)
+                
+                if self.verbose==2: print('|\n|'+self.space+'True branch (>>>)..')
+
+                self.branch = True
+                self.space = '-'+self.space
+                tBranch = self._build_tree(sets["tX"], sets["ty"], current_depth + 1)
+
+                if len(self.space)>1: self.space  = self.space[1:]
+
+
+
             node['T'] =tBranch
             node['F'] =fBranch
             
+            if self.verbose==4: self.plotTreePath(self.cpath,ax=self.ax,fig=self.fig)
             return node
-
-        # We're at leaf => determine value
+        
+        #Leaf Node
         leaf_value = self._leaf_value_calculation(y)
         
         node ={'feature_index':None,"threshold": None,
@@ -175,7 +226,26 @@ class DecisionTree(object):
                'value':leaf_value,"leaf": True, 'T':None,'F':None}
         
         node ={'value':leaf_value,"leaf": True}
-        if self.verbose==2: print('|'+self.space+'{Leaf Node:: value:',leaf_value,'}\n')
+        
+        
+        if self.branch:
+            S = list(self.cpath) +['']*(current_depth+1)
+            S[current_depth-1] ='T'
+            self.cpath = ''.join(S)
+            
+        elif self.branch==False:
+            S = list(self.cpath) +['']*(current_depth+1)
+            S[current_depth-1] ='F'
+            self.cpath = ''.join(S)
+        
+        self.cpath =self.cpath[:current_depth]
+        
+        if self.verbose==2: print('|'+self.space+'{Leaf Node:: value:',leaf_value,'}_Depth ='+\
+                                  str(current_depth)+'  \n')
+            
+        elif self.verbose==3: print(self.branch,current_depth,'|',self.cpath)
+        
+        elif self.verbose==4: self.plotTreePath(self.cpath,ax=self.ax,fig=self.fig)
         
         return node
 
@@ -213,7 +283,6 @@ class DecisionTree(object):
         
         # Test subtree
         return self.predict_value(x, branch,path)
-
     def predict(self, X,treePath=False):
         """ Classify samples one by one and return the set of labels """
         
@@ -223,7 +292,6 @@ class DecisionTree(object):
             y_pred = np.array([self.predict_value(x)[0] for x in X])
             
         return y_pred
-    
     def set_featureNames(self,feature_names=None):
         if feature_names is None or len(feature_names)!=self.nfeatures:
             print('setting feature names to default..f1, f2....fn')
@@ -239,7 +307,6 @@ class DecisionTree(object):
             X1 = X[X[:,ind]==threshold,:]
             X2 = X[X[:,ind]!=threshold,:]
         return X1,X2
-    
     def plotTree(self,scale=True,show=True, showtitle =True, showDirection=True,DiffBranchColor=False):
         import copy
         self.DT = copy.deepcopy(self.tree)
@@ -270,7 +337,6 @@ class DecisionTree(object):
             for key in DT.keys():
                 n = self.DictDepth(DT[key],n=n)
         return n
-    
     def set_xyNode(self,DT,lxy=[0,1],xy=[1,1],rxy=[2,1],ldiff=1):
         DT['xy'] = xy
         if not(DT['leaf']):
@@ -301,11 +367,11 @@ class DecisionTree(object):
             plt.plot(x,y,'ob')
             x1,y1 =DT['T']['xy']
             x2,y2 =DT['F']['xy']
-            plt.plot([x,x1],[y,y1],'-b',alpha=0.5)
+            plt.plot([x,x1],[y,y1],'-b',alpha=1)
             if DiffBranchColor: 
-                plt.plot([x,x2],[y,y2],'-r',alpha=0.5)
+                plt.plot([x,x2],[y,y2],'-r',alpha=1)
             else:
-                plt.plot([x,x2],[y,y2],'-b',alpha=0.5)
+                plt.plot([x,x2],[y,y2],'-b',alpha=1)
             self.showTree(DT['T'],DiffBranchColor=DiffBranchColor)
             self.showTree(DT['F'],DiffBranchColor=DiffBranchColor)
         else:
@@ -315,51 +381,30 @@ class DecisionTree(object):
                      verticalalignment='top')
             plt.plot(x,y,'og')
         plt.axis('off')
-        #plt.title(r'$<-False$ | $True->$\n',color='r',horizontalalignment='center')
- 
-    def keepPlotting(self,points,leaf=False,label=None,ax=None):
-        d=0
-        if ax is None:
-            ax = plt.gca()
-        x,y = points['xy']
-        x1,y1 = points['xy1']
-        if leaf:
-            plt.plot(x,y,'og')
-            val = label['value']
-            plt.text(x,y+d*y,'\nv:'+str(val),horizontalalignment='center',
-                     verticalalignment='top')
-        else:
-            plt.plot(x,y,'ob')
-            fn  = label['feature_name']
-            thr = label['threshold']
-            st =fn+'\n(=>'+str(np.around(thr,2))+'?)'
-            plt.text(x,y-d*y,st,horizontalalignment='center',
-                     verticalalignment='bottom')
-        if x1 is not None:
-            plt.plot([x,x1],[y,y1],'-b')
-            
-        self.fig.canvas.draw()
-        time.sleep(0.3)
         
-    def get_points(self,branch =True,lxy=[0,1],xy=[1,1],rxy=[2,1],ldiff=1):
-            if branch is None:
-                return (lxy,xy,rxy)
-            
-            if branch:
-                ixy =xy.copy()
-                ixy[0] = (xy[0]+rxy[0])/2.0
-                ixy[1]-=ldiff
-                ilxy =xy.copy()
-                irxy =rxy.copy()
-                return (ilxy,ixy,irxy)
-
+    def plotTreePath(self,path,ax=None,fig=None):
+        if ax is None:
+            fig,ax = plt.subplots(1,1)
+        lx,x,rx,y =0,1,2,0
+        ix,iy =x,y
+        for b in list(path):
+            jx,jy =ix,iy
+            if b=='T':
+                lx = ix
             else:
-                ixy =xy.copy()
-                ixy[0] = (xy[0]+lxy[0])/2.0
-                ixy[1]-=ldiff
-                ilxy =lxy.copy()
-                irxy =xy.copy()
-                return (ilxy,ixy,irxy)
+                rx = ix
+            
+            ix  = (lx +rx)/2.
+            iy -=1
+            if b=='T':
+                plt.plot([jx,ix],[jy,iy],'bo-')
+            else:
+                plt.plot([jx,ix],[jy,iy],'ro-')
+            if not(self.FastPlot): fig.canvas.draw()
+        
+        ax.plot(ix,iy,'og')
+        ax.axis('off')
+        fig.canvas.draw()
         
 class ClassificationTree(DecisionTree):
     def entropy(self,y):
@@ -387,7 +432,7 @@ class ClassificationTree(DecisionTree):
         label,count = np.unique(y,return_counts=True)
         return label[np.argmax(count)]
     
-    def fit(self, X, y,verbose=0,feature_names=None):
+    def fit(self, X, y,verbose=0,feature_names=None,randomBranch=False):
         '''
         Parameters:
         -----------
@@ -401,12 +446,10 @@ class ClassificationTree(DecisionTree):
         '''
         self._impurity_calculation = self._infoGain
         self._leaf_value_calculation = self._majority_vote
-        self.branch=None
-        #fig,ax = plt.subplots(1,1)
-        #self.ax  = ax
-        #self.fig = fig 
-        self.space='->'
-        super(ClassificationTree, self).fit(X, y,verbose=verbose,feature_names=feature_names)
+        self.verbose =verbose
+        self.feature_names = feature_names
+        self.randomBranch=randomBranch
+        super(ClassificationTree, self).fit(X, y)
         
 class RegressionTree(DecisionTree):
     def _varReduction(self, y, y1, y2):
@@ -423,7 +466,7 @@ class RegressionTree(DecisionTree):
         value = np.mean(y, axis=0)
         return value if len(value) > 1 else value[0]
 
-    def fit(self, X, y,verbose=0,feature_names=None):
+    def fit(self, X, y,verbose=0,feature_names=None,randomBranch=False):
         '''
         Parameters:
         -----------
@@ -437,6 +480,7 @@ class RegressionTree(DecisionTree):
         '''
         self._impurity_calculation = self._varReduction
         self._leaf_value_calculation = self._mean_of_y
-        self.branch=None
-        self.space='->'
-        super(RegressionTree, self).fit(X, y,verbose=verbose,feature_names=feature_names)
+        self.verbose =verbose
+        self.feature_names = feature_names
+        self.randomBranch=randomBranch
+        super(RegressionTree, self).fit(X, y)
