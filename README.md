@@ -200,24 +200,24 @@ clf.fit(Xt,yt,verbose=2,feature_names=feature_names)
 plt.figure(figsize=(15,8))
 clf.plotTree(show=True)
 ```
+### Visualizing the tree building while training
 
-
-### Visualization of decision tree after fitting a model
-
-**Iris data: Decesion Tree** (Option to show colored branch: Blue for True and Red for False)
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree1_Iris.png" width="600"/>
-</p> 
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/2.gif" width="500"/>
+    
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/5.gif" width="500"/>
 
-**Cancer data: Decesion Tree** (Or just show all branches as blue with direction to indicate True and False branch)
-<p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree4_Cancer.png" width="600"/>
-</p> 
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/6.gif" width="500"/>
 
-**Boston data: Decesion Tree**
-<p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree5_Boston.png" width="600"/>
-</p> 
+
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/7.2.gif" width="500"/>
+
+
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/8.gif" width="500"/>
+
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/2.gif" width="500"/>
+</p>
+
 
 ### Visualizing the progress of tree building while training
 
@@ -238,4 +238,23 @@ clf.plotTree(show=True)
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_2.gif" width="500"/>
 </p>
+
+### Visualization of decision tree after fitting a model
+
+**Iris data: Decesion Tree** (Option to show colored branch: Blue for True and Red for False)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree1_Iris.png" width="600"/>
+</p> 
+
+**Cancer data: Decesion Tree** (Or just show all branches as blue with direction to indicate True and False branch)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree4_Cancer.png" width="600"/>
+</p> 
+
+**Boston data: Decesion Tree**
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree5_Boston.png" width="600"/>
+</p> 
+
+
 
