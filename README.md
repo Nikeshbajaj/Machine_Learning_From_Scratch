@@ -1,5 +1,5 @@
 # Machine Learning From Scratch
-- ## With good visualizations
+- ## With good visualisations
 - ## Without using any ML libraries
 
 -----
