@@ -1,5 +1,5 @@
 # Machine Learning From Scratch (without using any ML libraries)
-## With good visualizations
+# With good visualizations
 
 ## [View Github page](https://nikeshbajaj.github.io/Machine_Learning_From_Scratch/)
 
@@ -186,7 +186,7 @@ clf.VizPx()
 ## Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
-### See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) for more details
+### See the examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) for more details
 
 ### Download (right click and 'save link as'): 
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression.ipynb" download>Notebook-1</a>**
