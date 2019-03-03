@@ -163,9 +163,10 @@ clf.VizPx()
 
 ### See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression.ipynb) for more details
 
-### Download: <a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression.ipynb" download>Notebook-1</a>
-<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression_V2.0.ipynb" download>Notebook-2</a>
-<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/trees.py" download>Class file:'trees.py'</a>
+### Download: 
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression.ipynb" download>Notebook-1</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression_V2.0.ipynb" download>Notebook-2</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/trees.py" download>Class file:'trees.py'</a>**
 
 
 #### Import
