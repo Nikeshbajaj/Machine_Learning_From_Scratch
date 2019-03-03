@@ -219,7 +219,7 @@ clf.plotTree(show=True)
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/7.2.gif" width="600"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/tree5_Boston.gif" width="500"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/tree5_Boston.png" width="500"/>
 </p>
 
 ### Visualizing the progress of tree building while training
