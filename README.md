@@ -22,7 +22,7 @@
 
 -----
 
-## 1. Logistic Regression (Python)
+## 1. Logistic Regression
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
 
 ### Download (right click and 'save link as'): 
@@ -61,7 +61,7 @@ W,b =clf.getWeight()
 
 -----
 
-## 2. Deep Neural Network - Deeplearning (python)
+## 2. Deep Neural Network - Deeplearning
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
  
@@ -111,7 +111,7 @@ returns weights W of each layer
 
 -----
 
-## 4. Kernel Learning & regularization (python)
+## 4. Kernel Learning & regularization
 ### Kernel Learning (Linear, Polynomial, Gaussian)
 * Linear ![equation1](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20X%5ETY)
 * Polynomail ![equation2](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20%28X%5ET%20Y%20+%201%29%5Ep)
@@ -143,7 +143,7 @@ Notebook include example of Iris data, Breast Cancer and Digit classification (M
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/probabilistic.py" download>Class file:: *probabilistic.py*</a>**
 
-
+here is code snippet
 
 ```
 import numpy as np
