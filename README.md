@@ -2,6 +2,8 @@
 - ## With good visualisations
 - ## Without using any ML libraries
 
+(Few visualisations are limited to 2D data only, others can be used for any dimenntions)
+
 -----
 ## [View Github page](https://nikeshbajaj.github.io/Machine_Learning_From_Scratch/)
 
