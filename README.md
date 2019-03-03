@@ -111,8 +111,13 @@ Classifier based on Bayes rule:
 </p>
 
 ### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
-
 Notebook include example of Iris data, Breast Cancer and Digit classification (MNIST)
+
+### Download (right click and 'save link as'): 
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/probabilistic.py" download>Class file:: *probabilistic.py*</a>**
+
+
 
 ```
 import numpy as np
@@ -161,12 +166,12 @@ clf.VizPx()
 ## Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
-### See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression.ipynb) for more details
+### See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) for more details
 
-### Download: 
+### Download (right click and 'save link as'): 
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression.ipynb" download>Notebook-1</a>**
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression_V2.0.ipynb" download>Notebook-2</a>**
- - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/trees.py" download>Class file:'trees.py'</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/trees.py" download>Class file:: *trees.py*</a>**
 
 
 #### Import
