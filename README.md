@@ -22,6 +22,11 @@
 ## 1. Logistic Regression (Python)
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
 
+### Download (right click and 'save link as'): 
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/probabilistic.py" download>Class file:: *probabilistic.py*</a>**
+
+
 ```
 from LogisticRegression import LR # given code
 clf = LR(X,y,alpha=0.003,polyfit=True,degree=5,lambd=2)
@@ -56,6 +61,15 @@ W,b =clf.getWeight()
 ## 2. Deep Neural Network - Deeplearning (python)
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
+ 
+ ### Download (right click and 'save link as'): 
+ - **<a href="https://github.com/Nikeshbajaj/DeepLearning_from_scratch/archive/master.zip" download>Download the reposatory</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/AllExamples.ipynb" download>Jupyter-Notebook</a>**
+ - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/DeepNet.py.ipynb" download>Class file:: *DeepNet.py*</a>**
+  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/example1.py" download>*example1.py*</a>**
+  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/example2.py" download>*example2.py*</a>**
+  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/example3.py" download>*example3.py*</a>**
+ 
  
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="500"/>
@@ -97,6 +111,12 @@ returns weights W of each layer
 * Polynomail ![equation2](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20%28X%5ET%20Y%20+%201%29%5Ep)
 * Gaussian (RBF) ![equation3](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20exp%5E%7B-%5Cleft%20%5C%7C%20X-Y%20%5Cright%20%5C%7C%5E2%20/%202%5Csigma%20%5E2%7D)
 ### Code and examples with GUI are given [here](https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning)
+
+### Download (right click and 'save link as'): 
+ - **<a href="https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning/archive/master.zip" download>Download the reposatory</a>**
+
+
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/GUI_Win_Lin.jpg" width="500"/>
 </p>
