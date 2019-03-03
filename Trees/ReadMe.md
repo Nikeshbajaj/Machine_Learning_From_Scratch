@@ -48,7 +48,24 @@ clf.plotTree(show=True)
 ```
 
 
+### Visualizing the tree building while training
 
+#### Iris Data (Classification)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/2.gif" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/4.gif" width="400"/>
+</p>
+
+#### Breast cancer Data (Classification)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/5.gif" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/6.gif" width="400"/>
+</p>
+
+#### Bostan House price Data (Regression)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/7.2.gif" width="700"/>
+</p>
 
 ### Visualization of decision tree after fitting a model
 
@@ -62,34 +79,23 @@ clf.plotTree(show=True)
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree4_Cancer.png" width="600"/>
 </p> 
 
-**Boston data: Decesion Tree** ***Big Tree***
+**Boston data: Decesion Tree**
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree5_Boston.png" width="600"/>
 </p> 
-
-**Boston data: Decesion Tree** ***Small Tree***
-<p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree6_Boston.png" width="600"/>
-</p> 
-
 
 
 ### Visualizing the progress of tree building while training
 
 **Tree building for Cancer Data (Classification)**
 
-*Detailed view*
+***Detailed view***
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_1.gif" width="500"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_1.gif" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_2.gif" width="400"/>
 </p>
 
-*Short view*
+***Short view***
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose1.gif" width="300"/>
-</p>
-
-**Big Tree building for Boston Data (Regression)**
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose2_2.gif" width="500"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/verbose1.gif" width="400"/>
 </p>
