@@ -5,8 +5,14 @@
 ---
 Fork it, use it, share it, cite it
 and if you add extra functionalities, let me know. I would update it.
+
+https://doi.org/10.6084/m9.figshare.7797095.v1
+Bajaj, Nikesh (2019): Decision Tree with Visualsation. figshare. Code.
+
 '''
 
+
+#Libraries
 import numpy as np
 import matplotlib.pyplot as plt
 #import time
