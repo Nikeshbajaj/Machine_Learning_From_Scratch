@@ -1,3 +1,12 @@
+'''
+@Author: Nikesh Bajaj
+@Homepage: http://nikeshbajaj.in
+@Email: n.bajaj@qmul.ac.uk, nikkeshbajaj@gmail.com
+---
+Fork it, use it, share it, cite it
+and if you add extra functionalities, let me know. I would update it.
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 #import time
