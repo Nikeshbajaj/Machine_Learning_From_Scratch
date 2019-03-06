@@ -20,7 +20,7 @@
     - Recurrance Neural Network
 - [Kernel Learning & Regularization](#4-kernel-learning--regularization-python)
 - Support Vector Machine (yet to implement)
-- Extra Tree; classification & Regression
+- Extra Tree; Classification & Regression
 - Random Forest
 - Linear discriminant analysis (LDA)
 
