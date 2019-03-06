@@ -117,10 +117,21 @@ returns weights W of each layer
 -----
 
 ## 4. Kernel Learning & regularization
-### Kernel Learning (Linear, Polynomial, Gaussian)
+
+#### Methods
+* Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
+* Nu-Method [Referance]()
+* Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
+* Singular Value Decomposition [Reference](https://en.wikipedia.org/wiki/Singular-value_decomposition)
+* Trunctated SVD [Referance 1](http://arxiv.org/pdf/0909.4061) [Referance 2](http://langvillea.people.cofc.edu/DISSECTION-LAB/Emmie%27sLSI-SVDModule/p5module.html)
+* Spectral cut-off
+
+#### Kernal Learning 
+(Linear, Polynomial, Gaussian)
 * Linear ![equation1](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20X%5ETY)
-* Polynomail ![equation2](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20%28X%5ET%20Y%20+%201%29%5Ep)
+* Polynomial ![equation2](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20%28X%5ET%20Y%20+%201%29%5Ep)
 * Gaussian (RBF) ![equation3](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20exp%5E%7B-%5Cleft%20%5C%7C%20X-Y%20%5Cright%20%5C%7C%5E2%20/%202%5Csigma%20%5E2%7D)
+
 ### Code and examples with GUI are given [here](https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning)
 
 ### Download (right click and 'save link as'): 
