@@ -14,12 +14,15 @@
 - [Decision Tree](#6-decision-trees)
     - [Classification Tree](#iris-data-classification)
     - [Regression Tree](#bostan-house-price-data-regression)
-- Support Vector Machine (yet to implement)
 - [Neural Network (matlab/octave)](#3-neural-network-simple-structure-with-any-number-of-layers-matlaboctave)
 - [Deep Neural Network-DeepLearning](#2-deep-neural-network---deeplearning-python)
     - Convolutional Network
     - Recurrance Neural Network
 - [Kernel Learning & Regularization](#4-kernel-learning--regularization-python)
+- Support Vector Machine (yet to implement)
+- Extra Tree; classification & Regression
+- Random Forest
+- Linear discriminant analysis (LDA)
 
 
 -----
