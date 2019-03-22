@@ -205,7 +205,7 @@ clf.VizPx()
 -----
 
 ## 6 Decision Trees
-## Classification and Regression Tree
+### Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
 ### See the examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) or [Repository](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/tree/master/Trees) for more details
