@@ -24,7 +24,7 @@
 - Random Forest
 - Linear discriminant analysis (LDA)
 
-
+<a class="github-button" href="https://github.com/nikeshbajaj" data-size="large" aria-label="Follow @nikeshbajaj on GitHub">Follow @nikeshbajaj</a>
 -----
 
 ## 1. Logistic Regression
@@ -289,4 +289,5 @@ Option to show colored branch: Blue for True and Red for False Or just show all 
 </p>
 
 
-
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/nikeshbajaj" data-size="large" aria-label="Follow @nikeshbajaj on GitHub">Follow @nikeshbajaj</a>
