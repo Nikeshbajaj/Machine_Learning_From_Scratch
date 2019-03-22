@@ -262,11 +262,12 @@ clf.plotTree(show=True)
 ### Visualization of decision tree after fitting a model
 Option to show colored branch: Blue for True and Red for False Or just show all branches as blue with direction to indicate True and False branch
 
-**Iris data: Decesion Tree** **Cancer data: Decesion Tree** 
+**Iris data: Decesion Tree** | **Cancer data: Decesion Tree** 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree1_Iris.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree1_Iris.png" width="400"/>|
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree4_Cancer.png" width="400"/>
 </p> 
+
 **Boston data: Decesion Tree**
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master//Trees/img/tree5_Boston.png" width="600"/>
