@@ -159,6 +159,10 @@ Classifier based on Bayes rule:
 ### Example with jupyter notebook [here](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb) and [Repository](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/tree/master/Probabilistic)
 Notebook include example of Iris data, Breast Cancer and Digit classification (MNIST)
 
+### Notebook
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/raw/master/Probabilistic/NaiveBayes_example.ipynb)
+
 ### Download (right click and 'save link as'): 
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/probabilistic.py" download>Class file:: *probabilistic.py*</a>**
@@ -213,6 +217,10 @@ clf.VizPx()
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
 ### See the examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) or [Repository](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/tree/master/Trees) for more details
+
+### Notebook
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/raw/master/Trees/Example-Classification_and_Regression_V2.0.ipynb)
 
 ### Download (right click and 'save link as'): 
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/Example-Classification_and_Regression.ipynb" download>Notebook-1</a>**
