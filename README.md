@@ -68,6 +68,12 @@ W,b =clf.getWeight()
 ### Code and examples are [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
 #### Full detail of implementation and use of code is describe [here](https://github.com/Nikeshbajaj/DeepLearning_from_scratch)
  
+ [<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/raw/master/AllExamples.ipynb)
+
+ 
+ 
+ 
  ### Download (right click and 'save link as'): 
  - **<a href="https://github.com/Nikeshbajaj/DeepLearning_from_scratch/archive/master.zip" download>Download the reposatory</a>**
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/AllExamples.ipynb" download>Jupyter-Notebook</a>**
