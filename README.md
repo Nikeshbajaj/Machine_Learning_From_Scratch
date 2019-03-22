@@ -162,7 +162,7 @@ Notebook include example of Iris data, Breast Cancer and Digit classification (M
 ### Notebook
 [<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/NaiveBayes_example.ipynb)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/raw/master/Probabilistic/NaiveBayes_example.ipynb)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/py.png" height="60"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/probabilistic.py)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/py.png" height="50"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Probabilistic/probabilistic.py)Class file
 
 ### Download (right click and 'save link as'): 
  - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
