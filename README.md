@@ -30,7 +30,7 @@
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
 
 ### Download (right click and 'save link as'):
-[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/py.png" height="30"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/LogisticRegression/LogisticRegression.py/)
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/py.png" height="60"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/LogisticRegression/LogisticRegression.py/)
 
 
 ```
