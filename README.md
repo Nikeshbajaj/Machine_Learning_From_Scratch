@@ -24,15 +24,13 @@
 - Random Forest
 - Linear discriminant analysis (LDA)
 
-<a class="github-button" href="https://github.com/nikeshbajaj" data-size="large" aria-label="Follow @nikeshbajaj on GitHub">Follow @nikeshbajaj</a>
 -----
 
 ## 1. Logistic Regression
 ### Code ans examples are [here](https://github.com/Nikeshbajaj/MachineLearningFromScratch/tree/master/LogisticRegression)
 
-### Download (right click and 'save link as'): 
- - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/NaiveBayes_example.ipynb" download>Jupyter-Notebook</a>**
- - **<a href="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Probabilistic/probabilistic.py" download>Class file:: *probabilistic.py*</a>**
+### Download (right click and 'save link as'):
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/py.png" height="30"/>](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/LogisticRegression/LogisticRegression.py/)
 
 
 ```
