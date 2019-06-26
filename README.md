@@ -135,9 +135,11 @@ returns weights W of each layer
         * Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
         * Singular Value Decomposition [Reference](https://en.wikipedia.org/wiki/Singular-value_decomposition)
         * Trunctated SVD [Referance 1](http://arxiv.org/pdf/0909.4061) [Referance 2](http://langvillea.people.cofc.edu/DISSECTION-LAB/Emmie%27sLSI-SVDModule/p5module.html)
-        * Spectral cut-off</td>
-     
-    <td><img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="300"/></td>
+        * Spectral cut-off
+     </td>
+     <td>
+       <img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="200"/>
+     </td>
  </tr>
 </table>
 
