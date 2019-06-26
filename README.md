@@ -145,7 +145,7 @@ returns weights W of each layer
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/GUI_Win_Lin.jpg" width="500"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win_Lin.jpg" width="500"/>
 </p>
 
 -----
