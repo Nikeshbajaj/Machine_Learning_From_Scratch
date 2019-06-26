@@ -123,39 +123,14 @@ returns weights W of each layer
 
 ## 4. Kernel Learning & regularization
 
-<table border="0">
- <tr>
-    <td><b style="font-size:30px">Methods</b></td>
-    <td><b style="font-size:30px">GUI</b></td>
- </tr>
- <tr>
-    <td> 
-        * Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
-        * Nu-Method [Referance]()
-        * Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
-        * Singular Value Decomposition [Reference](https://en.wikipedia.org/wiki/Singular-value_decomposition)
-        * Trunctated SVD [Referance 1](http://arxiv.org/pdf/0909.4061) [Referance 2](http://langvillea.people.cofc.edu/DISSECTION-LAB/Emmie%27sLSI-SVDModule/p5module.html)
-        * Spectral cut-off
-     </td>
-     <td>
-       <img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="200"/>
-     </td>
- </tr>
-</table>
-
-
 #### Methods
-
-<p align="left">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="300"/>
-    
+ 
 * Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
 * Nu-Method [Referance]()
 * Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
 * Singular Value Decomposition [Reference](https://en.wikipedia.org/wiki/Singular-value_decomposition)
 * Trunctated SVD [Referance 1](http://arxiv.org/pdf/0909.4061) [Referance 2](http://langvillea.people.cofc.edu/DISSECTION-LAB/Emmie%27sLSI-SVDModule/p5module.html)
 * Spectral cut-off
-</p>
 
 #### Kernal Learning 
 (Linear, Polynomial, Gaussian)
@@ -168,10 +143,8 @@ returns weights W of each layer
 ### Download (right click and 'save link as'): 
  - **<a href="https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning/archive/master.zip" download>Download the reposatory</a>**
 
-
-
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win_Lin.jpg" width="500"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="500"/>
 </p>
 
 -----
