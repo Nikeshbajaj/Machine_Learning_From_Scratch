@@ -126,17 +126,17 @@ returns weights W of each layer
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Methods</b></td>
-    <td><b style="font-size:30px">
+    <td><b style="font-size:30px">GUI</b></td>
+ </tr>
+ <tr>
+    <td> 
         * Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
         * Nu-Method [Referance]()
         * Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
         * Singular Value Decomposition [Reference](https://en.wikipedia.org/wiki/Singular-value_decomposition)
         * Trunctated SVD [Referance 1](http://arxiv.org/pdf/0909.4061) [Referance 2](http://langvillea.people.cofc.edu/DISSECTION-LAB/Emmie%27sLSI-SVDModule/p5module.html)
-        * Spectral cut-off
-        </b></td>
- </tr>
- <tr>
-    <td>GUI</td>
+        * Spectral cut-off</td>
+     
     <td><img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win.jpg" width="300"/></td>
  </tr>
 </table>
