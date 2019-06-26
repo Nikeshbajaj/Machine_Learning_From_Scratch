@@ -124,6 +124,7 @@ returns weights W of each layer
 ## 4. Kernel Learning & regularization
 
 #### Methods
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/Regularization_for_Machine_Learning/master/images/GUI_Win_Lin.jpg" width="300"/>
 * Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
 * Nu-Method [Referance]()
 * Iterative Landweber Method [Referance](https://en.wikipedia.org/wiki/Landweber_iteration)
