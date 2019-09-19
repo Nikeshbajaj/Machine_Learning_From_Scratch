@@ -1,6 +1,13 @@
 # Machine Learning From Scratch
-- ## With good visualisations
-- ## Without using any ML libraries
+### With good visualisations
+### Without using any ML libraries
+### <mark>Now available in [spkit](https://pypi.org/project/spkit/) library</mark>
+
+## Installation 
+<mark>Install spkit</mark>
+```
+pip install spkit
+```
 
 (Few visualisations are limited to 2D data only, others can be used for any dimenntions)
 
@@ -34,7 +41,8 @@
 
 
 ```
-from LogisticRegression import LR # given code
+~~#from LogisticRegression import LR # given code~~
+from spkit.ml import LR
 clf = LR(X,y,alpha=0.003,polyfit=True,degree=5,lambd=2)
 fig=plt.figure(figsize=(8,4))
 gs=GridSpec(1,2)
@@ -179,7 +187,8 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 
 # Library provided
-from probabilistic import NaiveBayes
+~~#from probabilistic import NaiveBayes~~
+from spkit.ml import NaiveBayes
 
 data = datasets.load_iris()
 X = data.data
@@ -235,7 +244,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Download trees.py and keep in current directory or give a path (if you know how to)
-from trees import ClassificationTree, RegressionTree
+~~#from trees import ClassificationTree, RegressionTree~~
+from spkit.ml import ClassificationTree, RegressionTree
+
 
 # For examples
 from sklearn import datasets
