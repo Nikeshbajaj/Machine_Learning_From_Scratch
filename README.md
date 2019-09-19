@@ -153,7 +153,7 @@ returns weights W of each layer
 ### Code and examples with GUI are given [here](https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning)
 
 ### Installation:: 
-```pip intall regml```
+```pip install regml```
 
 ### Execute
 ```
