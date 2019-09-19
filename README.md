@@ -3,10 +3,11 @@
 ### Without using any ML libraries
 ### <mark>Now available in [spkit](https://pypi.org/project/spkit/) library</mark>
 
-## Installation 
-<mark>Install spkit</mark>
+## Installation  
+<mark>Install spkit</mark> ``` pip install spkit```
+
 ```
-pip install spkit
+from spkit.ml import LR, NaiveBayes, ClassificationTree, RegressionTree
 ```
 
 (Few visualisations are limited to 2D data only, others can be used for any dimenntions)
@@ -41,7 +42,9 @@ pip install spkit
 
 
 ```
-~~#from LogisticRegression import LR # given code~~
+#from LogisticRegression import LR # given code
+
+##NOW USE spkit library (pip intall spkit)
 from spkit.ml import LR
 clf = LR(X,y,alpha=0.003,polyfit=True,degree=5,lambd=2)
 fig=plt.figure(figsize=(8,4))
@@ -131,6 +134,7 @@ returns weights W of each layer
 
 ## 4. Kernel Learning & regularization
 
+
 #### Methods
  
 * Regularized Least Squares -RLS [Referance](https://en.wikipedia.org/wiki/Regularized_least_squares)
@@ -147,6 +151,16 @@ returns weights W of each layer
 * Gaussian (RBF) ![equation3](http://latex.codecogs.com/gif.latex?%5Clarge%20K%28X%2CY%29%20%3D%20exp%5E%7B-%5Cleft%20%5C%7C%20X-Y%20%5Cright%20%5C%7C%5E2%20/%202%5Csigma%20%5E2%7D)
 
 ### Code and examples with GUI are given [here](https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning)
+
+### Installation:: 
+```pip intall regml```
+
+### Execute
+```
+import regml
+regml.GUI()
+```
+
 
 ### Download (right click and 'save link as'): 
  - **<a href="https://github.com/Nikeshbajaj/Regularization_for_Machine_Learning/archive/master.zip" download>Download the reposatory</a>**
@@ -187,7 +201,9 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 
 # Library provided
-~~#from probabilistic import NaiveBayes~~
+#from probabilistic import NaiveBayes (NO NEED OF THIS)
+
+##NOW USE spkit library (pip intall spkit)
 from spkit.ml import NaiveBayes
 
 data = datasets.load_iris()
@@ -243,10 +259,12 @@ clf.VizPx()
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Download trees.py and keep in current directory or give a path (if you know how to)
-~~#from trees import ClassificationTree, RegressionTree~~
-from spkit.ml import ClassificationTree, RegressionTree
+#(NO NEED OF THIS)
+#Download trees.py and keep in current directory or give a path (if you know how to)
+#from trees import ClassificationTree, RegressionTree
 
+##NOW USE spkit library (pip intall spkit)
+from spkit.ml import ClassificationTree, RegressionTree
 
 # For examples
 from sklearn import datasets
