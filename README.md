@@ -239,6 +239,14 @@ clf.VizPx()
 -----
 
 ## 6 Decision Trees
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="1000"/>
+</p>
+
+### Installation (Now in spkit library)
+
+```pip install spkit```
+
 ### Classification and Regression Tree
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
