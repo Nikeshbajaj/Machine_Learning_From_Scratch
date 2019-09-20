@@ -1,13 +1,41 @@
 
 # Decision Trees
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="900"/>
+</p>
+
 ## Classification and Regression Tree
+## Installation (Now in spkit library)
+
+```pip install spkit```
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+from spkit.ml import ClassificationTree, RegressionTree
+
+#for dataset
+from spkit.data import dataGen as ds
+
+```
+
+
+
 #### Requirement: All you need for this is Numpy and matplotlib** (Of course Python >=3.0)
 
 # See the Examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/Machine_Learning_From_Scratch/blob/master/Trees/Example-Classification_and_Regression_V2.0.ipynb) for more details
 
 <p align="center">
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/tree_sinusoidal.png" width="800"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="800"/>
+</p>
+
+<p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/MachineLearningFromScratch/master/Trees/img/a123_nik.gif" width="600"/>
 </p>
+
+
 
 
 ### import
