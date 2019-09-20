@@ -1,7 +1,7 @@
 
 # Decision Trees
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="900"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="1000"/>
 </p>
 
 ## Classification and Regression Tree
@@ -28,7 +28,6 @@ from spkit.data import dataGen as ds
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/tree_sinusoidal.png" width="800"/>
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/spkit/master/figures/trees.png" width="800"/>
 </p>
 
 <p align="center">
