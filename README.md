@@ -1,4 +1,12 @@
 # Machine Learning From Scratch
+[![HitCount](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch)
+
+![GitHub stars](https://img.shields.io/github/stars/nikeshbajaj/Machine_Learning_From_Scratch?style=social)
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:n.bajaj@qmul.ac.uk)
+
+
 ### With good visualisations
 ### Without using any ML libraries
 ### <mark>Now available in [spkit](https://pypi.org/project/spkit/) library</mark>
