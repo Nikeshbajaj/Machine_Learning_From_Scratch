@@ -3,14 +3,11 @@
 [![DOI](https://zenodo.org/badge/143247088.svg)](https://zenodo.org/badge/latestdoi/143247088)
 [![HitCount](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch?style=plastic)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://isitmaintained.com/project/nikeshbajaj/Machine_Learning_From_Scratch "Percentage of issues still open")
-
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch?style=plastic)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/nikeshbajaj/Machine_Learning_From_Scratch.svg)](https://GitHub.com/nikeshbajaj/Machine_Learning_From_Scratch/releases/)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://isitmaintained.com/project/nikeshbajaj/Machine_Learning_From_Scratch "Percentage of issues still open")
 
 ![GitHub stars](https://img.shields.io/github/stars/nikeshbajaj/Machine_Learning_From_Scratch?style=social)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:n.bajaj@qmul.ac.uk)
