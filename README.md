@@ -3,10 +3,14 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch)
 [![DOI](https://zenodo.org/badge/143247088.svg)](https://zenodo.org/badge/latestdoi/143247088)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/nikeshbajaj/Machine_Learning_From_Scratch.svg)](https://GitHub.com/nikeshbajaj/Machine_Learning_From_Scratch/releases/)
+[![HitCount](http://hits.dwyl.io/nikeshbajaj/spkit.svg)](http://hits.dwyl.io/nikeshbajaj/spkit)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://isitmaintained.com/project/nikeshbajaj/Machine_Learning_From_Scratch "Percentage of issues still open")
+
 ![GitHub stars](https://img.shields.io/github/stars/nikeshbajaj/Machine_Learning_From_Scratch?style=social)
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:n.bajaj@qmul.ac.uk)
-
 
 ### With good visualisations
 ### Without using any ML libraries
