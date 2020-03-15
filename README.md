@@ -1,6 +1,7 @@
 # Machine Learning From Scratch
 [![HitCount](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch)
+[![DOI](https://zenodo.org/badge/143247088.svg)](https://zenodo.org/badge/latestdoi/143247088)
 
 ![GitHub stars](https://img.shields.io/github/stars/nikeshbajaj/Machine_Learning_From_Scratch?style=social)
 
