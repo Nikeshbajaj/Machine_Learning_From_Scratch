@@ -1,6 +1,8 @@
 # Machine Learning From Scratch
 
 [![DOI](https://zenodo.org/badge/143247088.svg)](https://zenodo.org/badge/latestdoi/143247088)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711131.svg)](https://doi.org/10.5281/zenodo.3711131)
+
 [![HitCount](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://hits.dwyl.io/nikeshbajaj/Machine_Learning_From_Scratch)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/nikeshbajaj/Machine_Learning_From_Scratch.svg)](http://isitmaintained.com/project/nikeshbajaj/Machine_Learning_From_Scratch "Percentage of issues still open")
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/nikeshbajaj/Machine_Learning_From_Scratch?style=plastic)
