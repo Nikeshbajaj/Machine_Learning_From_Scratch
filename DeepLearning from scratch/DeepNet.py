@@ -177,7 +177,7 @@ class deepNet():
 			yi = (yp>0.5)*1
 		return yi,yp
 
-	def PlotLCurve(self):
+	def PlotLCurve(self, pause=0.001):
 		plt.figure(1)
 		plt.clf()
 		itrr = np.linspace(1,self.Itr,len(self.cost))
@@ -195,7 +195,7 @@ class deepNet():
 		#plt.show()
 		plt.pause(0.001)
 
-	def PlotBoundries(self, X='default',y='default',Layers=True,density =300):
+	def PlotBoundries(self, X='default',y='default',Layers=True,density =300, pause=0.001):
 		if isinstance(X, str) and X == 'default':
 			X = self.X
 		if isinstance(y, str) and y == 'default':
